@@ -62,18 +62,46 @@ svg.usa-map {
 
 @keyframes spin {
     from {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-        transform:rotate(360deg);
+        transform: rotate(360deg);
     }
 }
 
 @keyframes spin-reverse {
     from {
-        transform:rotate(0deg);
+        transform: rotate(0deg);
     }
+
     to {
-        transform:rotate(-360deg);
+        transform: rotate(-360deg);
     }
+}
+
+.border-5d5d5d {
+    border-color: #5d5d5d;
+}
+
+.border-0069AA {
+    border-color: #0069AA;
+}
+
+.bg-5d5d5d {
+    background-color: #5d5d5d;
+}
+
+.bg-0069AA {
+    background-color: #0069AA;
+}
+
+.status-chip .bg-5d5d5d {
+    background-color: #8d8d8d;
+    box-shadow: 0px 0px 20px 3px #5d5d5d;
+}
+
+.status-chip .bg-0069AA {
+    background-color: #0092ed;
+    box-shadow: 0px 0px 20px 3px #0069AA;
 }
